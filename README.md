@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://real-fruit-snacks.github.io/obsidian-glow/"><img src="docs/assets/hero-dark.png" alt="Glow theme for Obsidian, dark mode" width="100%"></a>
+  <a href="https://real-fruit-snacks.github.io/obsidian-glow/"><img src="docs/assets/screenshot.png" alt="Glow theme for Obsidian" width="100%"></a>
 </p>
 
 # Glow
@@ -7,10 +7,6 @@
 A dark theme for Obsidian: deep charcoal surfaces, a soft radial light behind your notes, and a periwinkle-to-violet accent. Quiet borders, rounded panels, nothing shouting.
 
 Made to pair with [Thoughtbin](https://github.com/Real-Fruit-Snacks/obsidian-Thoughtbin), but it stands on its own. A matching light mode is included.
-
-<p align="center">
-  <img src="docs/assets/screenshot.png" alt="Glow in dark and light mode" width="100%">
-</p>
 
 ## Features
 
@@ -21,6 +17,10 @@ Made to pair with [Thoughtbin](https://github.com/Real-Fruit-Snacks/obsidian-Tho
 - Full syntax colour set for code blocks
 - Mobile-aware toolbars and navigation
 - Uses Geist and Geist Mono if installed, with clean system fallbacks
+
+<p align="center">
+  <img src="docs/assets/hero-dark.png" alt="A note in Glow, dark mode" width="100%">
+</p>
 
 ## Install
 
