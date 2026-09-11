@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glow — a dark theme for Obsidian</title>
+<meta name="description" content="Glow is a dark Obsidian theme with a soft radial light, quiet borders and a periwinkle-to-violet accent. Light mode included.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Glow for Obsidian">
+<meta property="og:description" content="Deep charcoal, soft light, periwinkle accent. A calm dark theme for Obsidian.">
+<meta property="og:image" content="https://real-fruit-snacks.github.io/obsidian-glow/assets/screenshot.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/rfs.css">
+<style>:root{ --accent:#B48CFF; --accent-2:#7C9CFF; }</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site-header">
+    <a class="owner" href="https://github.com/Real-Fruit-Snacks"><i></i>Real-Fruit-Snacks</a>
+    <span class="crumb">/</span><span class="proj">Glow</span>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#install">Install</a>
+      <a href="#palette">Palette</a>
+      <a class="gh" href="https://github.com/Real-Fruit-Snacks/obsidian-glow">GitHub</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="pill"><b>Theme</b> dark and light modes</div>
+    <h1>A calm dark theme with a little light in it.</h1>
+    <p class="lede">Glow gives Obsidian deep charcoal surfaces, a soft radial glow behind your notes, and one periwinkle accent that every plugin picks up. Nothing shouting.</p>
+    <div class="actions">
+      <a class="btn primary" href="#install">Install Glow</a>
+      <a class="btn secondary" href="https://github.com/Real-Fruit-Snacks/obsidian-glow">View source</a>
+    </div>
+    <div class="frame"><img src="assets/screenshot.png" alt="Obsidian with the Glow theme: a note beside the Thoughtbin timeline"></div>
+  </div>
+
+  <section id="features">
+    <h2>What changes</h2>
+    <p class="sub">Built on Obsidian's own CSS variables, so it stays compatible as Obsidian and your plugins update.</p>
+    <div class="grid">
+      <div class="f"><div class="ic">Aa</div><h3>Quiet type</h3><p>Geist if you have it, system fonts if not. Gradient note titles, comfortable line height, tighter headings.</p></div>
+      <div class="f"><div class="ic">◐</div><h3>One accent everywhere</h3><p>Set through Obsidian's accent variables, so links, selections, checkboxes and plugin UI all match.</p></div>
+      <div class="f"><div class="ic">▣</div><h3>Rounded, bordered panels</h3><p>Modals, menus, callouts and code blocks share the same 1px hairline and radius.</p></div>
+      <div class="f"><div class="ic">{}</div><h3>Code palette</h3><p>A full syntax colour set tuned for the dark surface, with a matching light variant.</p></div>
+      <div class="f"><div class="ic">☾</div><h3>Light mode too</h3><p>Same family, same accent, white surfaces. Switch with Obsidian's normal toggle.</p></div>
+      <div class="f"><div class="ic">▭</div><h3>Mobile-aware</h3><p>Toolbars and navigation bars styled to match on iOS and Android.</p></div>
+    </div>
+  </section>
+
+  <section id="install">
+    <div class="two">
+      <div>
+        <h2>Install</h2>
+        <p class="sub">From the community list, or two files by hand.</p>
+        <ol class="steps">
+          <li><b>Community list</b> Settings → Appearance → Themes → Manage → search "Glow".</li>
+          <li><b>Manual</b> Download <code>theme.css</code> and <code>manifest.json</code> from the latest release into <code>.obsidian/themes/Glow/</code>, then pick it under Appearance.</li>
+        </ol>
+        <div class="callout"><b>Fonts are optional.</b> Install Geist and Geist Mono from vercel.com/font to match exactly.</div>
+      </div>
+<pre><code>.obsidian/
+  themes/
+    Glow/
+      theme.css
+      manifest.json</code></pre>
+    </div>
+  </section>
+
+  <section id="palette">
+    <h2>Palette</h2>
+    <p class="sub">Six roles, two modes.</p>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Role</th><th>Dark</th><th>Light</th></tr>
+        <tr><td>Background</td><td><code>#0E0F13</code></td><td><code>#FFFFFF</code></td></tr>
+        <tr><td>Surface</td><td><code>#15171D</code></td><td><code>#F3F4F8</code></td></tr>
+        <tr><td>Text</td><td><code>#F2F3F5</code></td><td><code>#14161C</code></td></tr>
+        <tr><td>Muted</td><td><code>#A2A6AF</code></td><td><code>#5A5F6B</code></td></tr>
+        <tr><td>Accent</td><td><code>#7C9CFF</code></td><td><code>#5B7CFF</code></td></tr>
+        <tr><td>Accent 2</td><td><code>#B48CFF</code></td><td><code>#7E4FE0</code></td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>More from Real-Fruit-Snacks</h2>
+    <p class="sub">Same site, a different glow per project.</p>
+    <div class="proj">
+      <a href="https://real-fruit-snacks.github.io/obsidian-Thoughtbin/"><i style="background:#7C9CFF"></i><b>Thoughtbin</b><span>Obsidian plugin — a private timeline for quick thoughts</span></a>
+      <a href="#" aria-current="page"><i style="background:#B48CFF"></i><b>Glow</b><span>Obsidian theme</span></a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <span>Glow by <a href="https://github.com/Real-Fruit-Snacks">Real-Fruit-Snacks</a> · MIT</span>
+    <span></span>
+  </footer>
+</div>
+</body>
+</html>
