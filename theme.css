@@ -160,7 +160,7 @@ body {
   --background-secondary-alt: #EDEFF5;
   --background-modifier-border: rgba(20, 24, 40, 0.10);
   --background-modifier-border-hover: rgba(20, 24, 40, 0.18);
-  --background-modifier-border-focus: #5B7CFF;
+  --background-modifier-border-focus: #4767F0;
   --background-modifier-hover: rgba(20, 24, 40, 0.05);
   --background-modifier-active-hover: rgba(91, 124, 255, 0.12);
   --background-modifier-form-field: #FFFFFF;
@@ -168,16 +168,16 @@ body {
   --text-normal: #14161C;
   --text-muted: #5A5F6B;
   --text-faint: #8B909B;
-  --text-accent: #4F6EF0;
+  --text-accent: #3D5CE6;
   --text-accent-hover: #3452D6;
   --text-on-accent: #FFFFFF;
   --text-selection: rgba(91, 124, 255, 0.22);
-  --text-highlight-bg: rgba(180, 140, 255, 0.30);
+  --text-highlight-bg: rgba(180, 140, 255, 0.55);
 
   --interactive-normal: #F3F4F8;
   --interactive-hover: #E8EAF2;
-  --interactive-accent: #5B7CFF;
-  --interactive-accent-hover: #4A6BF2;
+  --interactive-accent: #4767F0;
+  --interactive-accent-hover: #3D5CE6;
 
   --code-background: rgba(20, 24, 40, 0.05);
   --code-normal: #2A2E38;
@@ -189,13 +189,15 @@ body {
   --code-property: #1273B8;
   --code-tag: #D14A6A;
 
-  --tag-color: #4F6EF0;
+  --tag-color: #3D5CE6;
   --tag-background: rgba(91, 124, 255, 0.10);
   --tag-border-color: rgba(91, 124, 255, 0.30);
-  --link-color: #4F6EF0;
+  --link-color: #3D5CE6;
   --link-external-color: #7E4FE0;
-  --blockquote-border-color: #5B7CFF;
-  --checkbox-color: #5B7CFF;
+  --link-unresolved-color: #5A5F6B;
+  --blockquote-border-color: #4767F0;
+  --blockquote-color: #5A5F6B;
+  --checkbox-color: #4767F0;
   --checkbox-marker-color: #FFFFFF;
   --hr-color: rgba(20, 24, 40, 0.10);
   --nav-item-background-active: rgba(91, 124, 255, 0.12);
@@ -317,3 +319,11 @@ input:focus, textarea:focus, .cm-editor.cm-focused { box-shadow: 0 0 0 3px rgba(
 
 /* ---------- mobile ---------- */
 .is-mobile .mobile-navbar, .is-mobile .mobile-toolbar { background: var(--background-primary); border-top: 1px solid var(--background-modifier-border); }
+
+/* ---------- raw <mark> in Live Preview (== == is .cm-highlight) ---------- */
+.markdown-source-view.mod-cm6 mark {
+  background-color: var(--text-highlight-bg);
+  color: var(--text-normal);
+  border-radius: 3px;
+  padding: 0 2px;
+}
